@@ -1,1 +1,60 @@
  
+#label {
+    color: darkorange;
+    font-family: serif;
+}
+#label:hover {
+    color: currentColor;
+}
+#form{
+width:100%;
+max-width:400px;
+height:auto;
+}
+#id {
+    color: green;
+    margin: 16px;
+    border-color: chartreuse;
+    padding: 8px;
+    background-color: darkslategrey;
+    font-family: monospace;
+    text-align: center;
+}
+#format {
+    font-size: x-large;
+    color: darkorange;
+    background-color: darkseagreen;
+    border-color: darkorange;
+    font-family: monospace;
+}
+#submit{
+    text-align: center;
+    color: brown;
+    background-color: aliceblue;
+    border-color: chocolate;
+    font-family: monospace;
+    border-radius: 12px;
+    cursor:pointer;
+}
+#form {
+    background-color: black;
+    width: 398px;
+    height: 332px;
+    border-radius: 23px 0 32px;
+}
+#id:hover {
+    color: aqua;
+    border-color: brown;
+}
+#submit:hover {
+    font-size: larger;
+    background-color: antiquewhite;
+    border-color: blueviolet;
+}
+#format:hover {
+    border-color: darkmagenta;
+    background-color: black;
+}
+body {
+    background-color: crimson;
+}
